@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* header {
+    text-align: center;
+    background-color: rgb(64, 0, 255);;
+    color: #fff;
+    padding: 1em;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+  
+  nav ul li a {
+    color:black;
+    /*display: block;
+     padding: 20px;
+    color: #fff; 
+    background-color: #17a2b8;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+    font-size: 20px;*/
+  }
+ 
+  nav ul li a:hover,
+  nav ul li a:focus {
+    background-color: #13678A;
+    cursor: pointer;
+    transform: translateY(-5px);
+  }
+  /*
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 2em);
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgb(64, 0, 255);
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+  }
+  
+  form label {
+    margin-bottom: 0.5em;
+  }
+  
+  form input[type="submit"] {
+    background-color: rgb(64, 0, 255);;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #fff;
+    color:rgb(64, 0, 255);;
+  }
+  */
+  .container-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  /*
+  section h2 {
+    color: #000000;
+  }
+  */
+   footer {
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+  }
+  /*
+  header h1 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  #escudo {
+    position: absolute;
+    top: 0;
+    left: 2%;
+    width: 9%;
+    height: auto;
+  }
+  
+  #escudo2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8%;
+    height: auto;
+  }
+   */ 
+
+.dropbtn {
+  background-color: #0f5a7a;
+  color: rgb(0, 0, 0);
+  margin-left: 350px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #13678A;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 350px;
+  background-color: #13678A;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+.navbar {
+  background-color: #13678A;
+  position: fixed;
+  width: 100%;
+}
