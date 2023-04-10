@@ -1,12 +1,12 @@
 body {
   margin: auto;
-  width: 80%;
   background-color: rgb(10, 7, 7);
   font-family: Arial, sans-serif;
 }
 
 h1 {
   font-size: 36px;
+  text-align: center;
   color: navy;
   margin-top: 50px;
   text-shadow: 2px 2px 4px #000000;
@@ -27,14 +27,14 @@ h2 {
   text-shadow: 1px 1px 2px #000000;
 }
 
-ul {
+.lista-acerca ul {
   list-style-type: none;
   margin-top: 50px;
   padding: 0;
   display: inline-block;
 }
 
-li {
+.lista-acerca li {
   font-size: 18px;
   margin-bottom: 10px;
   display: inline-block;
@@ -43,4 +43,35 @@ li {
   border-radius: 20px;
   box-shadow: 2px 2px 4px #000000;
   margin-right: 20px;
+}
+
+.container-acerca {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#escudo {
+  border-radius: 0 0 50% 50%;
+  width: 120px;
+}
+
+.cuadro-acerca {
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  max-width: 700px;
+}
+
+.container-global-acerca {
+  padding: 50px;
+}
+
+.escudo-acerca {
+  display: flex;
+  justify-content: flex-end;
 }
